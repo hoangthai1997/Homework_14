@@ -9,6 +9,7 @@
   font-size: 16px;
   font-weight: 400;
   padding: 20px 40px;
+  display: inline-block;
 }
 
 .a-carousel-title {
@@ -120,6 +121,7 @@
   color: #717171;
   border-radius: 5px;
   background-color: #d8d8d8;
+  display: inline-block;
 }
 
 .a-schedule-minutes {
@@ -136,6 +138,9 @@
   color: #fff;
   border-radius: 50%;
   background: #4a4a4a;
+  display: block;
+  width: 30px;
+  height: 30px;
 }
 
 .a-section-title--coming {
