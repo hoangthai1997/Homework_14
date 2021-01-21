@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+.a-header-image {
+}
+
+.a-nav {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 40px;
+}
+
+.a-carousel-title {
+  font-size: 52px;
+  font-weight: 300;
+  padding: 0;
+  color: #fff;
+  border: none;
+}
+
+.a-carousel-content {
+  font-size: 18px;
+  color: #fff;
+}
+
+.a-carousel-icon {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius: 50%;
+}
+
+.a-carousel-btn--icon {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.a-carousel-caption {
+  font-size: 14px;
+  color: #fbbd61;
+}
+
+.a-btn {
+  border: solid 2px #fff;
+}
+
+.a-movie-title {
+  font-size: 18px;
+  color: #ec7532;
+}
+
+.a-movie-image {
+}
+
+.a-movie-caption {
+  font-size: 18px;
+  color: #4a4a4a;
+  padding: 0;
+  border-bottom: none;
+}
+
+.a-movie-icon {
+  font-size: 18px;
+  color: #fbbd61;
+}
+
+.a-schedule-tab {
+  font-size: 18px;
+  padding: 10px 30px 15px;
+  color: #4a4a4a;
+}
+
+.a-schedule-caption {
+  color: #ec7532;
+  font-size: 14px;
+}
+
+.a-schedule-title {
+  font-size: 24px;
+  font-weight: 300;
+  color: #101010;
+  padding: 0;
+  border-bottom: none;
+}
+
+.a-schedule-content {
+}
+
+.a-schedule-link {
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #ec7532;
+}
+
+.a-schedule-link::after {
+  font-family: material icons;
+  font-weight: 700;
+  content: "";
+  text-transform: none;
+}
+
+.a-schedule-view {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+
+.a-schedule-time {
+  font-size: 14px;
+  padding: 7px 10px;
+  letter-spacing: 2px;
+  color: #717171;
+  border-radius: 5px;
+  background-color: #d8d8d8;
+}
+
+.a-schedule-minutes {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.a-schedule-ages {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0;
+  color: #fff;
+  border-radius: 50%;
+  background: #4a4a4a;
+}
+
+.a-section-title--coming {
+  font-size: 18px;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #d8d8d8;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.a-section-title--coming::after {
+  background-image: linear-gradient(to right, #fbbd61, #ec7532);
+}
+
+.a-item-title {
+  font-size: 34px;
+  color: #fff;
+  border-bottom-color: #333;
+  padding: 0;
+  border-bottom: none;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  font-family: inherit;
+}
+
+.a-item-icon {
+  font-size: 14px;
+  color: #fbbd61;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.a-item-date {
+  font-size: 14px;
+  color: #fff;
+}
+
+.a-item-content {
+}
+
+.a-item-link {
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #ec7532;
+}
+
+.a-item-caption {
+  color: #ec7532;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.a-film-images {
+  border-radius: 10px;
+  border: 0;
+}
+
+.a-film-title {
+  font-size: 16px;
+  text-overflow: ellipsis;
+  color: #fff;
+  border-bottom-color: #333;
+  padding: 0;
+  border-bottom: none;
+  line-height: 1.4em;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.a-film-date {
+  font-size: 14px;
+  color: #fff;
+}
+
+.a-contact-text {
+  font-size: 23px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #4a4a4a;
+}
+
+.a-contact-link {
+  font-size: 46px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #4a4a4a;
+}
+
+.a-footer-caption {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ec7532;
+  border: none;
+  font-weight: 500;
+  line-height: 1.4em;
+  padding: 0 0 20px;
+  font-family: inherit;
+}
+
+.a-footer-link {
+  font-size: 13px;
+  padding: 3px 0;
+  letter-spacing: 1.5px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.a-footer-copyright {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.a-footer-copyright--link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
